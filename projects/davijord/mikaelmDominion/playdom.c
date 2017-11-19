@@ -6,9 +6,9 @@
 int main (int argc, char** argv) {
   struct gameState G;
   int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
-		sea_hag, tribute, smithy};
+           sea_hag, tribute, smithy};
 
- printf ("Starting game.\n");
+  printf ("Starting game.\n");
 
   initializeGame(2, k, atoi(argv[1]), &G);
 

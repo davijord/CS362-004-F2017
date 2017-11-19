@@ -1,0 +1,58 @@
+Black Box bugs:
+Adventurer had an incorrect hand count and deck count, but this is potentially the same bug.
+
+White Box bugs:
+Smithy draws 4 cards instead of 3.
+	Line 648
+Adventurer draws three treasure instead of two.
+	Line 658
+Feast bugs(?)
+	Unfamiliar card and no tests I have address the card.
+----------------------------------------------------------------------------------------
+Bug Report:
+
+Title: Adventurer and Smithy Bugs   
+
+Class: Incorrect card effects
+
+Date:           18 Nov 2017
+Reported By:   Jordan Davis
+Email:      davijord@oregonstate.edu
+
+Product: Dominion               Version: N/A
+Platform: Linux Shell           Version: N/A
+Browser: Version                Version: N/A
+URL: N/A       
+
+Is it reproducible: [Yes] / Occasionally / One Time / No
+
+Description
+===========
+Smithy draws 4 cards instead of three.
+Adventurer gives three treasures instead of two.
+
+Steps to Produce/Reproduce
+--------------------------
+N/A -- Always there.
+
+Expected Results
+----------------
+Smithy should give three cards.
+Adventurer should give two treasures.
+
+Actual Results
+--------------
+Smithy gives four cards.
+Adventurer gives three treasures.
+
+Workarounds
+-----------
+None, hardcoded.
+
+Attachments
+-----------
+N/A
+
+Other Information
+-----------------
+N/A

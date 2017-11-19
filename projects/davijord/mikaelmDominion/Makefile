@@ -24,15 +24,15 @@ randomtest: randomtestcard1.c randomtestadventurer.c dominion.o rngs.o randomtes
 	echo "Adventurer test" >> randomtestresults.out
 	./randomtestadventurer >> randomtestresults.out
 	gcov -ab dominion.c >> randomtestresults.out
-	#cat dominion.c.gcov > randomtestadventurer.out
+	cat dominion.c.gcov > randomtestadventurer.out
 	echo "Remodel test" >> randomtestresults.out
 	./randomtestcard2 >> randomtestresults.out
 	gcov -ab dominion.c >> randomtestresults.out
-	#cat dominion.c.gcov > randomtestcard2.out
+	cat dominion.c.gcov > randomtestcard2.out
 	echo "Smithy test" >> randomtestresults.out
 	./randomtestcard1 >> randomtestresults.out
 	gcov -ab dominion.c >> randomtestresults.out
-	#cat dominion.c.gcov > randomtestcard1.out
+	cat dominion.c.gcov > randomtestcard1.out
 	cat randomtestresults.out
 
 testAdventurer: testAdventurer.c dominion.o rngs.o

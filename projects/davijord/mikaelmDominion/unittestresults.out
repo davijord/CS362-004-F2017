@@ -1,0 +1,27 @@
+Running unit tests for Adventurer, Smithy, Remodel.
+Adventurer test
+Hand Count is different!
+Discard Count is the same!
+Deck Count is different!
+File 'dominion.c'
+No executable lines
+No branches
+No calls
+Removing 'dominion.c.gcov'
+
+Remodel test
+Remodel test passed!
+File 'dominion.c'
+No executable lines
+No branches
+No calls
+Removing 'dominion.c.gcov'
+
+Smithy test
+Cards = 8, expected = 8
+File 'dominion.c'
+No executable lines
+No branches
+No calls
+Removing 'dominion.c.gcov'
+
